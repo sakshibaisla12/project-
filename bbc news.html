@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #topbar{
+            width: 1000px;
+            margin: 0 auto;
+            height: 40px;
+        }
+       body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        #logo{
+            margin-top: 3px;
+           width: 100px;
+           float: left;
+           margin-right:8px;
+        }
+        .topbarsection{
+            float: left;
+            border-left: 1px #CCCC solid;
+            height: 100%;
+            
+
+        }
+        #signin{
+            margin-top: 15px;
+            height: 35px auto;
+            width:  25px;
+            margin-left: 15px;
+            float: left;
+        }
+            #signtext{
+                font-weight: bold;
+                font-size: 90%;
+                position: relative;
+                top: 14px;
+                margin-left: 14px;
+               
+            }
+            #belldiv{
+            float: left;
+            border-left: 1px #CCCC solid;
+            height: 100%;
+            margin-left: 12px;
+            }
+            #bell{
+                float: left;
+                height: 30px;
+                width: 25px;
+                margin-left: 14px;
+                margin-top: 10px;
+                margin-right: 11px;
+            }
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 90%;
+                padding: 13px 15px 0px;
+                height: 27px;
+            }
+            #input{
+                margin-top: 8px;
+                margin-left: 10px;
+                background-color: #CCCC;
+                height: 0.5cm;
+            }
+            #search{
+               margin-left:1px;
+               margin-top: 8px;
+               height: 0.61cm;
+               float: left;
+            }
+            .clear{
+                clear:both;
+            }
+            #menubarcontainer{
+                background-color: #BB1919;
+                width:100%;
+                height: 90px;
+            }
+            #menubar{
+                width: 1000px;
+                margin: 0 auto;
+            }
+            h1{
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 12px;
+                float:left
+            }
+            #localnes {
+                border: 2px #BB4545 solid;
+            }
+            #localnes a{
+                float: right;
+                margin: 14px;
+                color: aliceblue;
+                text-decoration: none;
+
+            }
+            #localnes a:hover{
+                text-decoration:underline ;
+            }
+            .alag{
+            width: 1000px;
+            margin: 0 auto;
+            }
+            .alagsection{
+            float: left;
+            border-left: 1px #CCCC solid;
+            height: 12p;
+            padding: 2px 14px 0px 15px;
+            color: white;
+            position: relative;
+            top:1.6cm;
+            }
+            .sp{
+                width: 1000px;
+                 margin: 0 auto;
+            }
+            .px{
+            float: left;
+            border-left: 1px #CCCC solid;
+            height: 12p;
+            padding: 10px 14px 0px 14px;
+            }
+            .px:hover{
+               
+                text-decoration:underline;
+            }
+            .image{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .photo{
+                
+                width: 7cm;
+                height: 6cm;
+
+            }
+            .block{
+                position: relative;
+                top: 0.5cm;
+                margin-left: 3cm;
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                height: 10cm;
+                width: 6cm;
+            }
+            .hr{
+                float:right;
+                border-bottom: 2px salmon solid;
+                width:80%;
+            }
+            #para{
+                font-size: 32px;
+              position: relative;
+              top:1.2cm;
+                margin-left:-6cm;
+                padding: 0;
+            }
+            #op{
+                margin: 2cm;
+                float: left;
+ 
+                justify-content: center;
+                 color: #BB4545;
+                 font-size: 28px;
+            }
+            .pp{
+                font-size:28px ;
+                display: inline;
+                color: black;
+            }
+    </style>
+</head>
+<body>
+ <div id="topbar">
+    <img id="logo" src="t_500x300.jpeg" >
+     <div id="signing" class="topbarsection">
+    <img id="signin" src="Capture.PNG" alt="" srcset="">
+    <span id="signtext"> sign in</span>
+ </div>
+ <div id="belldiv">
+   <img  id="bell"src="ball image.PNG" alt="" srcset="">
+ </div>
+  <div class="topbarsection topbar-menu">
+    News
+  </div>
+  <div class="topbarsection topbar-menu">
+    sport
+  </div>
+  <div class="topbarsection topbar-menu">
+   weather
+  </div>
+  <div class="topbarsection topbar-menu">
+   Iplayer
+  </div>
+  <div class="topbarsection topbar-menu">
+   TV
+  </div>
+  <div class="topbarsection topbar-menu">
+    Radio
+   </div>
+   <div class="topbarsection topbar-menu">
+    More
+   </div>
+   <div class="topbarsection">
+    <input id="input" type="text" placeholder="search">
+   </div>
+    <img id="search" src="search.PNG" alt="">
+   </div>
+ </div>
+ <div class="clear"></div>
+    <div id="menubarcontainer">
+        <div id="menubar">
+            <h1>NEWS</h1>
+        <div id="localnes">
+           <a href=""> Find local News</a>
+        </div>
+    </div>
+
+        <div class="alag">
+            <div class="alagsection">
+                Home
+            </div>
+            <div class="alagsection">
+                Asia
+            </div>
+            <div class="alagsection">
+                war in ukraine
+            </div>
+            <div class="alagsection">
+                coronavirus
+            </div>
+            <div class="alagsection">
+                climate
+            </div>
+            <div class="alagsection">
+                video
+            </div>
+            <div class="alagsection">
+                UK
+            </div>
+            <div class="alagsection">
+               business
+            </div>
+            <div class="alagsection">
+                tech
+             </div>
+        </div>
+        </div>
+    <div class="sp">
+        <div class="px">Asia</div>
+        <div class="px">UK</div>
+        <div class="px">India</div>
+    </div>
+    </div>
+
+ <div class="image" style="margin-top: 2cm;">
+    <img src="13390887552160989311.jpeg" alt="" srcset="">
+ </div>
+   <div class="block">
+    <img  class="photo" src="_128419343_adani.jpg.webp" alt="">
+    <a href="">Fortune of Asia's richest man hit by fraud </a>
+    <p>A report of fraud has sparked a mass sell-off in businesses led by Indian billionaire Gautam Adani</p>
+   </div>
+   <div class="block">
+    <img  class="photo" src="ukraine.PNG" alt="">
+    <a href="">How Western tanks can change the Ukraine war</a></a>
+    <p>German Leopard 2 tanks and US M1 Abrams tanks will spearhead attacks on Russia - but is it enough?</p>
+   </div>
+   <div class="block">
+    <img  class="photo" src="_128419299_gettyimages-1228334002-594x594.jpg.webp" alt="">
+    <a href="">Google announces sweeping Android changes in India</a>
+    <p>Google has announced a series of changes to its Android system in India after the search giant lost a major anti-trust case in the country.</p>
+   </div>
+   <div class="block">
+    <img  class="photo" src="_128434433_gettyimages-91030960.jpg.webp" alt="">
+    <a href="">South Africa to send 12 cheetahs a year to India</a>
+    <p>Asian cheetahs became extinct in India in the 1940s because of excessive hunting and loss of habitat.</p>
+   </div>
+<div class="hr">
+     <p id="para">Most watched</p>
+</div>
+<div class="pp">
+    <h1 style="font-size: 23px; color: #BB4545;">1</h1>
+    <a id="op" href=""> video shows police kicking</a>
+    <div class="pp">
+        <h1>1</h1>
+        <a id="op" href="">video shows police kicking</a>
+    </div>
+
+    <div class="pp">
+        <h1>1</h1>
+        <a id="op" href="">video shows police kicking</a>
+    </div>
+    <div class="pp">
+        <h1>1</h1>
+        <a id="op" href="">video shows police kicking</a>
+    </div>
+    <div class="pp">
+        <h1>1</h1>
+        <a id="op" href="">video shows police kicking</a>
+    </div>
+    <div class="pp">
+        1
+        <a id="op" href="">video shows police kicking</a>
+    </div>
+                
+</div>
+
+
+</body>
+</html>
